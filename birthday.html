@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привітання для Мами Юлі</title>
+    <link rel="website icon" href="https://th.bing.com/th/id/OIP.BN9R29uLKFp0WzVpCw9WkwHaHZ?rs=1&pid=ImgDetMain">
+    <link rel="stylesheet" href="Birthday.css">
+</head>
+<body>
+    <div class="overlay">
+        <h1>З Днем Народження, Мама!</h1>
+        <p>Бажаю тобі безмежного щастя, здоров’я та тепла!</p>
+        <p>Ти найкраща мама у світі!</p>
+        <div class="heart">❤️</div>
+
+        <button class="music-button" onclick="playMusic()">Натисни, щоб почути музику 🎶</button>
+
+        <audio id="birthdayMusic" src="static/audio/spok.mp3"></audio>
+    </div>
+
+    <script>
+        function playMusic() {
+            var audio = document.getElementById('birthdayMusic');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
